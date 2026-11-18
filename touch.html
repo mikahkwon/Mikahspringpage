@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Window / FEEL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="page-nav">
+    <a href="index.html">FEEL / HOME</a>
+    <a href="touch.html">01 / WINDOW</a>
+    <a href="memory.html">02 / MEMORY</a>
+  </nav>
+  <main class="window-page">
+    <section class="window-text">
+      <p>EXPERIMENT 01 / SPRING</p>
+      <h1>LET THE<br>AIR IN.</h1>
+      <p>After a long winter, even opening a window feels different.</p>
+      <button id="windowButton" onclick="toggleWindow()">OPEN WINDOW +</button>
+      <p id="windowStatus">THE WINDOW IS CLOSED.</p>
+    </section>
+    <section class="window-scene" id="windowScene">
+      <div class="outside">
+        <div class="sun"></div>
+        <img class="grass" src="assets/spring4.svg" alt="Spring grass">
+        <img class="branch" src="assets/spring7.svg" alt="Spring branch">
+      </div>
+      <div class="fog">CONDENSATION / 08:42 AM</div>
+      <div class="window-left"></div>
+      <div class="window-right"></div>
+    </section>
+  </main>
+  <footer>FEEL / THE FIRST WARM DAY</footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory / FEEL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="memory-body">
+  <nav class="page-nav">
+    <a href="index.html">FEEL / HOME</a>
+    <a href="touch.html">01 / WINDOW</a>
+    <a href="memory.html">02 / MEMORY</a>
+  </nav>
+  <main class="memory-page">
+    <section class="memory-text">
+      <p>FIELD NOTE 002 / SPRING</p>
+      <h1>THE<br>FIRST<br>TIME.</h1>
+      <p>Sometimes spring feels like remembering something you forgot. The air changes. Everything starts again.</p>
+    </section>
+    <section class="memory-entry">
+      <img src="assets/spring3.svg" alt="Daisy drawing">
+      <label for="memory">WHAT DOES SPRING REMIND YOU OF?</label>
+      <textarea id="memory" rows="5" placeholder="I remember..."></textarea>
+      <button onclick="saveMemory()">RECORD MEMORY +</button>
+      <p id="result">NO MEMORY RECORDED.</p>
+    </section>
+  </main>
+  <footer>FEEL / SPRING SENSORY ARCHIVE</footer>
+  <script src="script.js"></script>
+</body>
+</html>
